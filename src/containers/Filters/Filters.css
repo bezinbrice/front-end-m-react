@@ -1,0 +1,22 @@
+.category__filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 11px;
+}
+
+.filter-button {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 375px) {
+    .category__filters {
+        border-bottom: none;
+        padding: 3% 3% 3% 8%;
+    }
+}

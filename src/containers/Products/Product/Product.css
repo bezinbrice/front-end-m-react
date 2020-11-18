@@ -1,0 +1,27 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__name {
+    text-transform: uppercase;
+}
+
+.product__name, .product__price {
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .product {
+        max-width: 936px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .product {
+        max-width: 85%
+    }
+}

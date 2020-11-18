@@ -1,0 +1,6 @@
+.header__icons {
+    display: flex;
+    align-items: center;
+    width: 185px;
+    justify-content: space-around;
+}
